@@ -5,6 +5,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* 
+    could've used box-sizing: border-box
+    but this project uses default of content-box,
+    so padding and margin affect width and height of stuff.
+*/
+
 ul {
     margin: 0;
     padding: 0;
@@ -131,4 +137,48 @@ What this looks for are the children of section 2 that are li
 .quoter {
     align-self: flex-end;
     font-size: 24px;
+}
+
+.section4 {
+    height: 160px;
+    padding: 64px 160px;
+
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action-box {
+    width: 800px;
+    height: 128px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #E5E7EB;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+cta-text p,strong {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-text p {
+    font-size: 12px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    width: 128px;
+    height: 38px;
+}
+
+.footer {
+    background-color: #1f2937;
 }
