@@ -113,4 +113,22 @@ What this looks for are the children of section 2 that are li
 
 .section3 {
     background-color: #E5E7EB;
+    height: 192px;
+    padding: 96px 192px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #494e55;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-size: 24px;
 }
