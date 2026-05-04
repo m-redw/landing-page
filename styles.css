@@ -144,6 +144,7 @@ What this looks for are the children of section 2 that are li
     padding: 64px 160px;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
