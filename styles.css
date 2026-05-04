@@ -117,6 +117,10 @@ What this looks for are the children of section 2 that are li
     color: #767779;
 }
 
+.section2-subtext {
+    width: 120px;
+}
+
 .section3 {
     background-color: #E5E7EB;
     height: 192px;
