@@ -182,4 +182,10 @@ What this looks for are the children of section 2 that are li
 
 .footer {
     background-color: #1f2937;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 12px;
 }
