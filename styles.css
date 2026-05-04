@@ -63,6 +63,7 @@ p {
 .subtext {
     font-size: 18px;
     margin: 10px 0;
+    color: #b6b9bd;
 }
 
 .section1-button {
@@ -107,6 +108,7 @@ What this looks for are the children of section 2 that are li
 
     font-size: 18px;
     text-align: center;
+    color: #767779;
 }
 
 .section3 {
