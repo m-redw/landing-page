@@ -74,3 +74,41 @@ p {
     width: 140px;
     height: 48px;
 }
+
+.section2 {
+    background-color: #f9faf8;
+    color: #1f2937;
+    height: 192px;
+    padding: 48px 96px 160px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* 
+section2: ancestor
+li: child
+
+What this looks for are the children of section 2 that are li
+*/
+.section2 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; /* between box and subtext*/
+    margin: 0 32px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
