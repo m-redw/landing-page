@@ -149,9 +149,9 @@ What this looks for are the children of section 2 that are li
 
 .call-to-action-box {
     width: 800px;
-    height: 128px;
+    height: 112px;
     background-color: #3882f6;
-    border-radius: 12px;
+    border-radius: 8px;
     color: #E5E7EB;
 
     display: flex;
@@ -159,13 +159,14 @@ What this looks for are the children of section 2 that are li
     align-items: center;
 }
 
-cta-text p,strong {
+.cta-text p,strong {
     font-size: 18px;
     font-weight: bold;
 }
 
 .cta-text p {
     font-size: 12px;
+    font-weight: normal;
 }
 
 .sign-up-button {
